@@ -28,6 +28,10 @@ Here we are trying to solve the design questions as easy as possible in java and
 - [Call taxi booking](https://www.geeksforgeeks.org/zoho-interview-set-3-campus/)
 - sokoban puzzle game
 - SplitWise
+- A time table creator
+
+###Advanced
+- Github calender like ui
 
 -------
 web hook (reverse api) 
