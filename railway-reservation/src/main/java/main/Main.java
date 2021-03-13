@@ -1,14 +1,20 @@
 package main;
 
 import java.util.Scanner;
-import main.app.service.ServiceImpl;
-import main.app.service.Services;
+
+import com.google.inject.Guice;
+import com.google.inject.Injector;
+import main.app.service.RailwayService;
+import main.config.RailwayReservationAppModule;
 
 public class Main {
   private static Scanner sc = new Scanner(System.in);
 
   public static void main(String[] args) {
-    Services service =new ServiceImpl();
+    Injector injector = Guice.createInjector(new RailwayReservationAppModule());
+    RailwayService service =injector.getInstance(RailwayService.class);
+
+    //Services service =new ServiceImpl();
     System.out.println("Welcome to Railway reservation system..");
     int option =-1;
     do{
