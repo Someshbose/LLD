@@ -3,12 +3,12 @@ package main.app.service;
 import java.util.Scanner;
 import main.model.Booking;
 
-public class ServiceImpl implements Services {
+public class RailwayServiceImpl implements RailwayService {
   private Booking bookingObject;
 
   private static Scanner sc = new Scanner(System.in);
 
-  public ServiceImpl() {
+  public RailwayServiceImpl() {
     bookingObject = new Booking();
   }
 
