@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 5.3//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">
+
+<hibernate-mapping>
+    <class name="main.model.Person" table="person">
+        <id name="id" type = "int" column = "id">
+            <generator class="assigned"></generator>
+        </id>
+        <property name="name"></property>
+        <property name="contact"></property>
+        <property name="mailId"></property>
+
+    </class>
+
+</hibernate-mapping>

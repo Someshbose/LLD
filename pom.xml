@@ -5,7 +5,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>zoho-poc-projects</name>
-    <description>zoho app folder</description>
+    <description>zoho main folder</description>
     <modules>
         <module>railway-reservation</module>
         <module>tic-tac-toe</module>
