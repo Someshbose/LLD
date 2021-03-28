@@ -6,12 +6,21 @@
 <hibernate-configuration>
 
     <session-factory>
+<!--        <property name="hbm2ddl.auto">update</property>-->
+<!--        <property name="dialect">org.hibernate.dialect.Oracle9Dialect</property>-->
+<!--        <property name="connection.url">jdbc:oracle:thin:@localhost:1521:xe</property>-->
+<!--        <property name="connection.username">system</property>-->
+<!--        <property name="connection.password">oracle</property>-->
+<!--        <property name="connection.driver_class">oracle.jdbc.driver.OracleDriver</property>-->
+<!--        <mapping resource="person.hbm.xml"/>-->
+
+
         <property name="hbm2ddl.auto">update</property>
-        <property name="dialect">org.hibernate.dialect.Oracle9Dialect</property>
-        <property name="connection.url">jdbc:oracle:thin:@localhost:1521:xe</property>
-        <property name="connection.username">system</property>
-        <property name="connection.password">oracle</property>
-        <property name="connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+        <property name="dialect">org.hibernate.dialect.H2Dialect</property>
+        <property name="connection.url">jdbc:h2:file:D:/data/demodb</property>
+        <property name="connection.username">sa</property>
+        <property name="connection.password"></property>
+        <property name="connection.driver_class">org.h2.Driver</property>
         <mapping resource="person.hbm.xml"/>
     </session-factory>
 

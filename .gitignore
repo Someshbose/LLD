@@ -1,5 +1,11 @@
-/target/
+# Maven destination folder
+target/
+
+# Files of intellij and other IDEs
+*.iml
 .classpath
 .project
 .settings
+
+# intellij prpoject settings folder
 .idea
