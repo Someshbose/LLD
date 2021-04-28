@@ -1,0 +1,5 @@
+main/config/SplitwiseModule.class
+main/model/Person.class
+main/model/Expense.class
+main/model/Person$PersonBuilder.class
+main/Main.class

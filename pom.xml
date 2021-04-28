@@ -9,6 +9,7 @@
     <modules>
         <module>railway-reservation</module>
         <module>tic-tac-toe</module>
+        <module>Library-system</module>
     </modules>
     <dependencies>
         <dependency>
