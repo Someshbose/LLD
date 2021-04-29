@@ -54,14 +54,7 @@
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.4.5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.4.5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.3.6" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.3.6" level="project" />
-    <orderEntry type="library" name="Maven: com.oracle.ojdbc:ojdbc8:19.3.0.0" level="project" />
-    <orderEntry type="library" name="Maven: com.oracle.ojdbc:ucp:19.3.0.0" level="project" />
-    <orderEntry type="library" name="Maven: com.oracle.ojdbc:oraclepki:19.3.0.0" level="project" />
-    <orderEntry type="library" name="Maven: com.oracle.ojdbc:osdt_cert:19.3.0.0" level="project" />
-    <orderEntry type="library" name="Maven: com.oracle.ojdbc:osdt_core:19.3.0.0" level="project" />
-    <orderEntry type="library" name="Maven: com.oracle.ojdbc:simplefan:19.3.0.0" level="project" />
-    <orderEntry type="library" name="Maven: com.oracle.ojdbc:ons:19.3.0.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.h2database:h2:1.4.200" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-data-jpa:2.4.5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-aop:2.4.5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.6" level="project" />
@@ -89,5 +82,21 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.3.6" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.6" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aspects:5.3.6" level="project" />
+    <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.20" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:2.4.5" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-json:2.4.5" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.11.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.11.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.11.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.11.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.11.4" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:2.4.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.45" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish:jakarta.el:3.0.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.45" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-web:5.3.6" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:5.3.6" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.3.6" level="project" />
   </component>
 </module>
