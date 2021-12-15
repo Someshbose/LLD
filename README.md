@@ -1,4 +1,4 @@
-# Desgining questions of Zoho
+# Desgining questions of Zoho/Flipkart machine coding 
 [![Build Status](https://travis-ci.org/Someshbose/zoho.svg?branch=development)](https://travis-ci.org/Someshbose/zoho)
 Here we are trying to solve the design questions as easy as possible in java and document them.
 
