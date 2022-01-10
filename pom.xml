@@ -9,6 +9,8 @@
     <modules>
         <module>railway-reservation</module>
         <module>tic-tac-toe</module>
+        <module>event-calender</module>
+        <module>MessageBroker</module>
     </modules>
     <dependencies>
         <dependency>
