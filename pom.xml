@@ -13,7 +13,6 @@
         <module>MessageBroker</module>
         <module>Jira</module>
         <module>Ludo</module>
-        <module>splitwise</module>
         <module>SnakeLadder</module>
         <module>FoodKartService</module>
         <module>HotelBooking</module>
