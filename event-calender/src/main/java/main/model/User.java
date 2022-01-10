@@ -1,13 +1,10 @@
-package main;
+package main.model;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 public class User {
-  String mail;
   String name;
-
   List<InviteNotifcation> list;
 
   public User(String name){
@@ -19,7 +16,11 @@ public class User {
     return list;
   }
 
-//  public boolean putResponse(int id, Response response){
+  public String getName() {
+    return name;
+  }
+
+  //  public boolean putResponse(int id, Response response){
 //    list.stream().findFirst(item->item. == id)
 //        return item;
 //      )

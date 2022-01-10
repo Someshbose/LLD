@@ -1,8 +1,8 @@
-package main;
+package main.model;
 
 public class InviteNotifcation {
-  int eventId;
-  Response response;
+  private int eventId;
+  private Response response;
 
   public InviteNotifcation(int eventId,Response response){
     this.eventId =eventId;
@@ -11,6 +11,10 @@ public class InviteNotifcation {
 
   public int getEventId() {
     return eventId;
+  }
+
+  public Response getResponse() {
+    return response;
   }
 
   public void setResponse(Response response) {
