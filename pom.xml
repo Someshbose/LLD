@@ -1,16 +1,23 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>someshbose.github.io</groupId>
-    <artifactId>zoho-poc-parent</artifactId>
+    <artifactId>lld-poc-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>zoho-poc-projects</name>
-    <description>zoho app folder</description>
+    <name>lld-poc-projects</name>
+    <description>lld app folder</description>
     <modules>
         <module>railway-reservation</module>
         <module>tic-tac-toe</module>
         <module>event-calender</module>
         <module>MessageBroker</module>
+        <module>Jira</module>
+        <module>Ludo</module>
+        <module>splitwise</module>
+        <module>SnakeLadder</module>
+        <module>FoodKartService</module>
+        <module>HotelBooking</module>
+        <module>Library-system</module>
     </modules>
     <dependencies>
         <dependency>

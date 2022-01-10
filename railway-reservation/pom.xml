@@ -6,7 +6,7 @@
   </properties>
   <parent>
     <groupId>someshbose.github.io</groupId>
-    <artifactId>zoho-poc-parent</artifactId>
+    <artifactId>lld-poc-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>railway-reservation</artifactId>
