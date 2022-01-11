@@ -4,5 +4,6 @@
 .settings
 .idea
 **/out/
+**/target/
 **/*.iml
 

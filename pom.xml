@@ -16,6 +16,7 @@
         <module>SnakeLadder</module>
         <module>FoodKartService</module>
         <module>HotelBooking</module>
+        <module>2048Game</module>
     </modules>
     <dependencies>
         <dependency>
