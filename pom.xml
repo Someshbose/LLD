@@ -16,7 +16,6 @@
         <module>SnakeLadder</module>
         <module>FoodKartService</module>
         <module>HotelBooking</module>
-        <module>Library-system</module>
     </modules>
     <dependencies>
         <dependency>
